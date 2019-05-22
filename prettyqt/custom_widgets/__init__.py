@@ -17,6 +17,7 @@ from .popupinfo import PopupInfo
 from .buttondelegate import ButtonDelegate
 from .selectionwidget import SelectionWidget
 from .codeeditor import CodeEditor
+from .settingsdialog import SettingsWidget
 
 __all__ = ["FlowLayout",
            "ColorChooserButton",
@@ -31,4 +32,5 @@ __all__ = ["FlowLayout",
            "Image",
            "ImageViewer",
            "MarkdownWindow",
-           "CodeEditor"]
+           "CodeEditor",
+           "SettingsWidget"]

@@ -72,7 +72,8 @@ class BaseDialog(QtWidgets.QDialog):
         return button_box
 
     def accepted(self):
-        self.close()
+        # self.close()
+        super().accept()
 
     def show_blocking(self):
         self.show()
